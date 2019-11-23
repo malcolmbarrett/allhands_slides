@@ -44,7 +44,7 @@ class: middle, center
 
 class: middle, center
 
-<video controls autoplay>
+<video controls>
 <source src="img/the-pac-man-rule.mp4" type="video/mp4">
 </video>
 
