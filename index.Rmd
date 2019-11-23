@@ -1,0 +1,79 @@
+---
+title: "SoCal R Meetup"
+date: "`r Sys.Date()`"
+output:
+  xaringan::moon_reader:
+    css: ["default", "theme.css"]
+    lib_dir: libs
+    seal: false
+    nature:
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+---
+
+class: middle, center
+background-image: url(img/allhandsmeetup_header.png)
+background-repeat: no-repeat
+background-size: 1000px 
+
+```{r setup, include=FALSE}
+options(htmltools.dir.version = FALSE, tibble.max_extra_cols = 6, tibble.width = 60)
+knitr::opts_chunk$set(warning = FALSE, message = FALSE, fig.align = "center", dpi = 320)
+```
+
+---
+class: middle, center
+
+
+## Schedule
+
+|  time |  event |
+|--:|--:|
+| 11:30-11:45 |  Break and Welcome |   
+| 11:45-12:15 |  Alan Dipert:"Software Engineering with Shiny" |   
+| 12:15-1:15 |  Lunch and words from Lunch Sponsor |   
+| 1:15-1:45 |  Qinghua Song:  <br>"Artificial Intelligence & Analytical Innovation" |  
+| 1:45-2:15 |  Peter Foley: <br>"Best practices for code reuse and collaboration" |   
+| 2:15-2:45 |  Lightning Talks|   
+| 2:45-3:00 |  Break | 
+| 3:00-3:50 |  Julia Stewart Lowndes: "R for better science in less time" | 
+| 3:50-4:00 |   Closing Remarks from organizers | 
+
+---
+
+class: middle, center
+
+<video controls autoplay>
+<source src="img/the-pac-man-rule.mp4" type="video/mp4">
+</video>
+
+
+---
+
+## Join us on Slack and Twitter
+
+### Slack: https://socalrug.herokuapp.com/
+
+--
+
+|  R Group |  Twitter |
+|--:|--:|
+| LA R User Group | @la_Rusers |   
+| R-Ladies Riverside | @RLadiesRiversd | 
+| R-Ladies LA | @RLadiesLA | 
+| OC R User Group | @oc_rug |   
+| R-Ladies Irvine |  @RLadiesIrvine |  
+| R-Ladies Santa Barbara |  @RLadiesSB |   
+| R-Ladies San Diego |  @RLadiesSanDiego |   
+
+
+---
+
+class: middle, center
+
+# Thanks to our sponsors
+
+## Warner Bros (Breakfast and host)
+## UC Irvine MSBA (Lunch)
+## RStudio (Hex stickers!)
